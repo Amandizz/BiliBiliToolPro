@@ -4,6 +4,6 @@
 . bili_task_base.sh
 
 cd ./src/Ray.BiliBiliTool.Console
-
+dotnet build
 export Ray_RunTasks=Login && \
 dotnet run
