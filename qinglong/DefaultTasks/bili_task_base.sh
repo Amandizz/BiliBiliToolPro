@@ -8,7 +8,7 @@ dir_shell=${QL_DIR-'/ql'}/shell
 
 ## 安装dotnet（如果未安装过）
 dotnetVersion=$(dotnet --version)
-if [[ $dotnetVersion == 6.* ]]; then
+if [[ $dotnetVersion == 8.* ]]; then
     echo "已安装dotnet，当前版本：$dotnetVersion"
 else
     echo "which dotnet: $(which dotnet)"
