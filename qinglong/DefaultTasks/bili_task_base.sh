@@ -4,7 +4,7 @@
 
 dir_shell=${QL_DIR-'/ql'}/shell
 . $dir_shell/share.sh
-. "$HOME/.bashrc"
+. $HOME/.bashrc
 
 ## 安装dotnet（如果未安装过）
 # dotnetVersion=$(dotnet --version)
